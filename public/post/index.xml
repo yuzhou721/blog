@@ -6,111 +6,23 @@
     <description>Recent content in Posts on 宇哥的技术Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 10 Jan 2021 00:00:00 +0800</lastBuildDate><atom:link href="http://blog.yuzhou721.top/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Mar 2021 00:00:00 +0800</lastBuildDate><atom:link href="http://blog.yuzhou721.top/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>In-post APlayer Test</title>
-      <link>http://blog.yuzhou721.top/post/aplayer-test/</link>
-      <pubDate>Sun, 10 Jan 2021 00:00:00 +0800</pubDate>
+      <title>如何有效阅读一本书</title>
+      <link>http://blog.yuzhou721.top/post/20210124120135-%E5%A6%82%E4%BD%95%E6%9C%89%E6%95%88%E9%98%85%E8%AF%BB%E4%B8%80%E6%9C%AC%E4%B9%A6/</link>
+      <pubDate>Tue, 23 Mar 2021 00:00:00 +0800</pubDate>
       
-      <guid>http://blog.yuzhou721.top/post/aplayer-test/</guid>
-      <description>&lt;div class=&#34;post-player-wrapper&#34;&gt;
-  &lt;div
-    class=&#34;post-aplayer&#34;
-    data-urls=&#34;/theme/hugo-theme-fuji/aplayer/berlin.mp3&#34;
-    data-names=&#34;Berlin&#34;
-    data-artists=&#34;Crowander&#34;
-    data-covers=&#34;/theme/hugo-theme-fuji/aplayer/crowander.jpg&#34;
-  &gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;This post is for in-post APlayer test, above is previous post-player.&lt;/p&gt;
-&lt;p&gt;Music files are all downloaded from &lt;a href=&#34;https://freemusicarchive.org&#34; target=&#34;_blank&#34;&gt;Free Music Archive&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid>http://blog.yuzhou721.top/post/20210124120135-%E5%A6%82%E4%BD%95%E6%9C%89%E6%95%88%E9%98%85%E8%AF%BB%E4%B8%80%E6%9C%AC%E4%B9%A6/</guid>
+      <description>读书笔记 我们经常说，“要对所有事务抱有好奇心”,好奇心固然重要，但是如果不随时记录下来，也只会是一个漫不经心的小想法。 每一个想法，可能只是灵光一现，如果不记录下来，就真的是一个漫不经心的想法，更重要的</description>
     </item>
     
     <item>
-      <title>First</title>
+      <title>Manjaro休眠修复</title>
       <link>http://blog.yuzhou721.top/post/first/</link>
-      <pubDate>Thu, 31 Dec 2020 17:06:41 +0800</pubDate>
+      <pubDate>Mon, 22 Mar 2021 23:43:32 +0800</pubDate>
       
       <guid>http://blog.yuzhou721.top/post/first/</guid>
-      <description>test hugo  aaaa bbb  </description>
-    </item>
-    
-    <item>
-      <title>Markdown Syntax</title>
-      <link>http://blog.yuzhou721.top/post/markdown-syntax/</link>
-      <pubDate>Mon, 11 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://blog.yuzhou721.top/post/markdown-syntax/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;
-&lt;h2 id=&#34;headings&#34;&gt;Headings&lt;/h2&gt;
-&lt;p&gt;The following HTML &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt;—&lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; elements represent six levels of section headings. &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt; is the highest section level while &lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; is the lowest.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Math Typesetting</title>
-      <link>http://blog.yuzhou721.top/post/math-typesetting/</link>
-      <pubDate>Sun, 08 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://blog.yuzhou721.top/post/math-typesetting/</guid>
-      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;
-&lt;p&gt;In this example we will be using &lt;a href=&#34;https://katex.org/&#34; target=&#34;_blank&#34;&gt;KaTeX&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Create a partial under &lt;code&gt;/layouts/partials/math.html&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Within this partial reference the &lt;a href=&#34;https://katex.org/docs/autorender.html&#34; target=&#34;_blank&#34;&gt;Auto-render Extension&lt;/a&gt; or host these scripts locally.&lt;/li&gt;
-&lt;li&gt;Include the partial in your templates like so:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;{{ if or .Params.math .Site.Params.math }}
-{{ partial &amp;quot;math.html&amp;quot; . }}
-{{ end }}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ul&gt;
-&lt;li&gt;To enable KaTex globally set the parameter &lt;code&gt;math&lt;/code&gt; to &lt;code&gt;true&lt;/code&gt; in a project&amp;rsquo;s configuration&lt;/li&gt;
-&lt;li&gt;To enable KaTex on a per page basis include the parameter &lt;code&gt;math: true&lt;/code&gt; in content files.&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    
-    <item>
-      <title>Placeholder Text</title>
-      <link>http://blog.yuzhou721.top/post/placeholder-text/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://blog.yuzhou721.top/post/placeholder-text/</guid>
-      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de
-pectora summo. Redit teque digerit hominumque toris verebor lumina non cervice
-subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc
-caluere tempus inhospita parcite confusaque translucet patri vestro qui optatis
-lumine cognoscere flos nubis! Fronde ipsamque patulos Dryopen deorum.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Emoji Support</title>
-      <link>http://blog.yuzhou721.top/post/emoji-support/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://blog.yuzhou721.top/post/emoji-support/</guid>
-      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;
-&lt;p&gt;The &lt;a href=&#34;https://gohugo.io/functions/emojify/&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;emojify&lt;/code&gt;&lt;/a&gt; function can be called directly in templates or &lt;a href=&#34;https://gohugo.io/templates/shortcode-templates/#inline-shortcodes&#34; target=&#34;_blank&#34;&gt;Inline Shortcodes&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;To enable emoji globally, set &lt;code&gt;enableEmoji&lt;/code&gt; to &lt;code&gt;true&lt;/code&gt; in your site’s &lt;a href=&#34;https://gohugo.io/getting-started/configuration/&#34; target=&#34;_blank&#34;&gt;configuration&lt;/a&gt; and then you can type emoji shorthand codes directly in content files; e.g.&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;:s ee_no_evil:[Remove the space]&lt;/code&gt; 🙈 &lt;code&gt;:h ear_no_evil:[Remove the space]&lt;/code&gt; 🙉 &lt;code&gt;:s peak_no_evil:[Remove the space]&lt;/code&gt; 🙊&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>CJK Unicode Test</title>
-      <link>http://blog.yuzhou721.top/post/cjk-unicode-test/</link>
-      <pubDate>Fri, 09 Mar 2018 00:00:00 +0800</pubDate>
-      
-      <guid>http://blog.yuzhou721.top/post/cjk-unicode-test/</guid>
-      <description>&lt;p&gt;The following is part of the CJK text, this page is for test use only.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>纯简体中文测试文章</title>
-      <link>http://blog.yuzhou721.top/post/wtf-article/</link>
-      <pubDate>Sat, 01 Apr 2017 00:00:00 +0800</pubDate>
-      
-      <guid>http://blog.yuzhou721.top/post/wtf-article/</guid>
-      <description>&lt;p&gt;本文内容无实际意义，由狗屁不通文章生成器自动生成，不代表作者本人观点。&lt;/p&gt;
-&lt;p&gt;可是，即使是这样，一段代码写一天的出现仍然代表了一定的意义。一段代码写一天，到底应该如何实现。马克思在不经意间这样说过，一切节省，归根到底都归结为时间的节省。这不禁令我深思。马克思曾经说过，一切节省，归根到底都归结为时间的节省。&lt;/p&gt;</description>
+      <description>系统休眠修复 新装的monjaro无法休眠（我的swap不是挂的分区，是一个文件，分好以后按POWER键是已经看到有休眠功能了，但是不生效，和按关机效果一样），xfce版本有这个问题，不知道其他版本有没</description>
     </item>
     
   </channel>
