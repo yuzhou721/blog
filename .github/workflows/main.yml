@@ -40,3 +40,13 @@ jobs:
           
       - name: Build
         run: hugo --minify
+        
+      - name: copy file via ssh password
+        uses: appleboy/scp-action@master
+        with:
+          host: ${{ secrets.IP }}
+          username: root
+          password: ${{ secrets.PASSWORD }}
+          source: "public/*"
+          target: "/root/nginx/public"
+          overwrite: true
