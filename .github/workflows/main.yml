@@ -41,12 +41,12 @@ jobs:
       - name: Build
         run: hugo --minify
         
-      - name: copy file via ssh password
+      - name: copy file to aliyun
         uses: appleboy/scp-action@master
         with:
           host: ${{ secrets.IP }}
           username: root
           password: ${{ secrets.PASSWORD }}
           source: "public/*"
-          target: "/root/nginx/public"
+          target: "/root/nginx"
           overwrite: true
