@@ -48,5 +48,5 @@ jobs:
           username: root
           password: ${{ secrets.PASSWORD }}
           source: "public/*"
-          target: "/root/nginx"
+          target: "/root/nginx/html"
           overwrite: true
