@@ -78,8 +78,8 @@ paginate = 10
 
   # Comments
   # utterances, see: https://utteranc.es/
-  # utterancesRepo = "*/*"
-  # utterancesIssueTerm = "pathname"
+   utterancesRepo = "yuzhou721/blog"
+   utterancesIssueTerm = "pathname"
 
   # Disqus, see: https://disqus.com/admin/install/platforms/universalcode/
   # disqusShortname = "*********"
