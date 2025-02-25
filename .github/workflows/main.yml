@@ -48,5 +48,5 @@ jobs:
           username: root
           password: ${{ secrets.PASSWORD }}
           source: "public/*"
-          target: "/root/nginx/html"
+          target: "/opt/1panel/apps/openresty/openresty/www/sites/blog.yuzhou721.top/index"
           overwrite: true
